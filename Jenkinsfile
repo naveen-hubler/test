@@ -3,7 +3,7 @@ pipeline {
 
     parameters {
         // Git
-        //
+        ///
         string(name: 'GIT_URL', defaultValue: 'git@github.com:HubblerMobile/hubbler-web-auth.git', description: 'Git repository URL')
         string(name: 'GIT_BRANCH', defaultValue: 'login-azure-dev', description: 'Git branch to clone')
         string(name: 'CREDENTIALS_ID', defaultValue: 'github_ssh', description: 'Jenkins credentials ID for Git authentication')
